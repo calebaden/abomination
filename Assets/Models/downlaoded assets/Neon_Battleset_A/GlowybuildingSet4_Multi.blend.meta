@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 599a41d49fd826c498dc09956378ac7b
+timeCreated: 1488266798
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: city
+    100002: Glowy_UFO
+    100004: //RootNode
+    100006: honeycomb
+    100008: Icosphere_002
+    100010: Laser_Gr_Flash
+    100012: Laser_Gr_Flash_001
+    100014: Laser_Or_Flash
+    100016: Laser_Or_Flash_001
+    100018: Laser_pulse
+    100020: Pink_Fighter_M_Laser
+    100022: pyramid
+    100024: Rainbow_Fighter
+    100026: Trapazohedron
+    400000: city
+    400002: Glowy_UFO
+    400004: //RootNode
+    400006: honeycomb
+    400008: Icosphere_002
+    400010: Laser_Gr_Flash
+    400012: Laser_Gr_Flash_001
+    400014: Laser_Or_Flash
+    400016: Laser_Or_Flash_001
+    400018: Laser_pulse
+    400020: Pink_Fighter_M_Laser
+    400022: pyramid
+    400024: Rainbow_Fighter
+    400026: Trapazohedron
+    2300000: city
+    2300002: Glowy_UFO
+    2300004: honeycomb
+    2300006: Icosphere_002
+    2300008: Laser_Gr_Flash
+    2300010: Laser_Gr_Flash_001
+    2300012: Laser_Or_Flash
+    2300014: Laser_Or_Flash_001
+    2300016: Laser_pulse
+    2300018: Pink_Fighter_M_Laser
+    2300020: pyramid
+    2300022: Rainbow_Fighter
+    2300024: Trapazohedron
+    3300000: city
+    3300002: Glowy_UFO
+    3300004: honeycomb
+    3300006: Icosphere_002
+    3300008: Laser_Gr_Flash
+    3300010: Laser_Gr_Flash_001
+    3300012: Laser_Or_Flash
+    3300014: Laser_Or_Flash_001
+    3300016: Laser_pulse
+    3300018: Pink_Fighter_M_Laser
+    3300020: pyramid
+    3300022: Rainbow_Fighter
+    3300024: Trapazohedron
+    4300000: Laser_Gr_Flash_001
+    4300002: Rainbow_Fighter
+    4300004: Laser_Or_Flash_001
+    4300006: Laser_pulse
+    4300008: city
+    4300010: Pink_Fighter_M_Laser
+    4300012: Icosphere_002
+    4300014: pyramid
+    4300016: Glowy_UFO
+    4300018: Laser_Or_Flash
+    4300020: honeycomb
+    4300022: Trapazohedron
+    4300024: Laser_Gr_Flash
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
