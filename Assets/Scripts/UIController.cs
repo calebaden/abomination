@@ -96,7 +96,7 @@ public class UIController : MonoBehaviour
                     }
                     else
                     {
-                        SceneManager.LoadScene(0);
+                        AbominationManager.Instance.CallCoroutine();
                     }
                 }
             }
