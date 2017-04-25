@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 56b2bb3320a58e74f948daa6e08a4a84
+timeCreated: 1489471197
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Falling Rain
+  fontNames:
+  - Falling Rain
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
