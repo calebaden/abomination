@@ -6,7 +6,14 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour {
 
     public MainMenuUI mainMenuUI;
+    public static GameManager instance = null;
+    public float blockSpeed = 2f;
+    public int index;
 
+    void Awake () {
+
+        instance = this;
+    }
     // Use this for initialization
     void Start ()
     {
