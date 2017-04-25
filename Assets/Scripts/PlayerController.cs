@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public LevelController levelController;
     CameraScript cameraScript;
-    GameController gameController;
+    GameControllerBreathe gameController;
     UIController uiController;
 
     public GameObject playerObject;
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
 	void Start ()
     {
         cameraScript = GetComponentInChildren<CameraScript>();
-        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControllerBreathe>();
         uiController = GameObject.FindGameObjectWithTag("UIController").GetComponent<UIController>();
 	}
 	

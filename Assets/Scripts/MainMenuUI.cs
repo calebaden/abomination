@@ -32,7 +32,7 @@ public class MainMenuUI : MonoBehaviour {
     void Start ()
     {
         musicPlayer = GameObject.FindGameObjectWithTag("MusicPlayer").GetComponent<PlayMusic>();
-
+        playGame();
         //uIGroupStartTime = Time.time;
         //uIGroupJourneyLength = Vector3.Distance(uIGroupStartMarker.position, uIGroupEndMarker.position);
     }

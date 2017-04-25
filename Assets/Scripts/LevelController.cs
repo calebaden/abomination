@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelController : MonoBehaviour
 {
     PlayerController player;
-    GameController gameController;
+    GameControllerBreathe gameController;
 
     public bool hasChosen;
     public string weather;
@@ -21,7 +21,7 @@ public class LevelController : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         player.levelController = this;
-        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameControllerBreathe>();
 
         if (gameController.currentWeather != weather)
         {
