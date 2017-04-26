@@ -16,6 +16,7 @@ public class AbominationManager : MonoBehaviour
     Color imgColor;
     int currentScene;
     bool isFading = false;
+    bool isLoading = false;
 
 	// Use this for initialization
 	void Start ()
@@ -69,7 +70,11 @@ public class AbominationManager : MonoBehaviour
     // CALL THIS AT THE END OF THE PROJECT
     public void CallCoroutine()
     {
-        StartCoroutine(FadeImage());
+        if (!isLoading)
+        {
+            isLoading = true;
+            StartCoroutine(FadeImage());
+        }
     }
     // ^^^^^^^^^
 
@@ -104,6 +109,7 @@ public class AbominationManager : MonoBehaviour
 
     void OnLevelWasLoaded ()
     {
+        isLoading = false;
         isFading = false;
         loadTxt.enabled = false;
         timeLimit = levelTime;

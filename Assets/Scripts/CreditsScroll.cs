@@ -17,9 +17,10 @@ public class CreditsScroll : MonoBehaviour {
 
         if (elapsedTime < duration) {
 
-            speed = 62.0f;
-            CreditsObject.transform.Translate(Vector3.down * speed * Time.deltaTime);
-            elapsedTime += Time.deltaTime;
+            //speed = 62.0f;
+            //CreditsObject.transform.Translate(Vector3.down * speed * Time.deltaTime);
+            //elapsedTime += Time.deltaTime;
+            AbominationManager.Instance.CallCoroutine();
         }
         else if (elapsedTime > duration) {
 

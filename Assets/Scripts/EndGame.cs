@@ -24,9 +24,7 @@ public class EndGame : MonoBehaviour {
     {
         if (otherObject.transform.tag == "Player")
         {
-            gameEnded = true;            
-            mainMenuUI.endGameCreditsUI.SetActive(true);
-            mainMenuUI.gameStarted = false;
+            AbominationManager.Instance.CallCoroutine();
         }
     }
 }

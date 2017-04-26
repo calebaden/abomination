@@ -43,11 +43,6 @@ public class turbo : MonoBehaviour {
 	
 	void Update ()
     {
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            Application.LoadLevel("menu");
-        }
-
         if (Input.GetKeyDown(KeyCode.LeftShift))
             {
             TURBOBOOL = true;

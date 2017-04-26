@@ -10,7 +10,7 @@ public class BlockMove : MonoBehaviour {
     
 	void Start () {
         speed = GameManager.instance.blockSpeed;
-        myTransform = transform;
+        myTransform = this.transform;
 	}
 	
 	void FixedUpdate () {

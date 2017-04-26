@@ -30,7 +30,7 @@ public class UIController : MonoBehaviour
         {
             // do all the main menu start calls
         }
-        else if (currentScene == 1)
+        else if (currentScene == 2)
         {
             // do all the main scene start calls
             blackFadeImage.color = Color.black;
@@ -45,7 +45,7 @@ public class UIController : MonoBehaviour
         {
             MainMenuUpdate();
         }
-        else if (currentScene == 1)
+        else if (currentScene == 2)
         {
             MainSceneUpdate();
         }
