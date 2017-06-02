@@ -21,7 +21,14 @@ public class AbominationManager : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        Instance = this;
+        if (!Instance)
+        {
+            Instance = this;
+        } else
+        {
+            DestroyImmediate(gameObject);
+        }
+        
         DontDestroyOnLoad(this);
         currentScene = SceneManager.GetActiveScene().buildIndex;
         loadTxt.enabled = false;
@@ -40,7 +47,7 @@ public class AbominationManager : MonoBehaviour
 
         Fading();
 
-        if (currentScene == 0 || currentScene == 1)
+        if (currentScene == 0 || currentScene == 1 || currentScene == 4)
         {
             if (timeLimit > 0)
             {
